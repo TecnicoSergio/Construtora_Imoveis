@@ -16,30 +16,27 @@ public class Main {
         sala sala1 = new sala("2", "1",10.2);
 
         System.out.println("O quarto terá " + quartos1.janelas + " janelas");
-        System.out.println("O quarto terá " + quartos1.porta + "2");
-        System.out.println("O quarto terá " + quartos1.metragem + 25.5);
-        System.out.println(quartos1.getJanelas());
-        System.out.println(quartos1.getMetragem());
-        System.out.println(quartos1.getPorta());
+        System.out.println("O quarto terá " + quartos1.porta + " Portas");
+        System.out.println("O quarto terá " + quartos1.metragem + " de metragem" );
+
         System.out.println("===================");
+
         System.out.println("Cozinha terá " + cozinha1.bancada + "Grande");
-        System.out.println("A metragem será de " + cozinha1.metragem + "45.2");
-        System.out.println(cozinha1.getMetragem());
-        System.out.println(cozinha1.getBancada());
+        System.out.println("A metragem será de " + cozinha1.metragem);
+
         System.out.println("==================");
-        System.out.println("A varanda terá " + varanda1.churrasqueira
-                + "metragem: 12/ 1 churrasqueira/ 2 janelas e 1 porta");
-        //System.out.println(varanda1.getChurrasqueira());
-        //System.out.println(varanda1.getMetragem());
-        //System.out.println(varanda1.getPorta());
-        //System.out.println(varanda1.getJanela());
+
+        System.out.println("A varanda terá " + varanda1.metragem );
+        System.out.println("Na Varanda teremos " + varanda1.churrasqueira );
+        System.out.println("Teremos " + varanda1.janela);
+        System.out.println("Teremos " + varanda1.porta);
+
         System.out.println("============================");
-        System.out.println("Banheiro terá " + banheiro1.vaso + "vaso");
-        System.out.println("Banheiro terá " + banheiro1.pia + "pia");
-        System.out.println("Banheiro terá " + banheiro1.porta + "porta");
-        //System.out.println(banheiro1.getPorta());
-        //System.out.println(banheiro1.getPia());
-        //System.out.println(banheiro1.getVaso());
+
+        System.out.println("Banheiro terá " + banheiro1.vaso + " vaso");
+        System.out.println("Banheiro terá " + banheiro1.pia + " pia");
+        System.out.println("Banheiro terá " + banheiro1.porta + " porta");
+
 
 
 
